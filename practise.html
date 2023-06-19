@@ -7,12 +7,23 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
-    
   </head>
   <body>
-    <nav class="bg-pink-600 text-white flex justify-between py-2 sm:bg-pink-600">
-      <img src="images/logo/logo2.png" class="h-10 px-2 items-center mx-2" />
-      <ul class=" hidden lg:flex px-28 py-2  space-x-12 justify-end">
+    <nav class="bg-pink-600 text-white flex justify-between py-2 ">
+
+        <!-- For making hamburger -->
+    <div class="hamburger inline-block p-4 cursor-pointer md:hidden">
+     <div class="line h-0.5 w-6 my-1 bg-black"></div>
+     <div class="line h-0.5 w-6 my-1 bg-black"></div>
+     <div class="line h-0.5 w-6 my-1 bg-black"></div>
+
+    </div>
+    <div class="search">SearchIcon</div>
+
+    <div>
+      <img src="images/logo/logo2.png" class=" md:order-1" />
+      <div class="cart text-center md:order-3"></div>
+      <ul class="px-28 py-2 flex space-x-12 justify-end">
         <li
           class="cursor-pointer hover:text-pink-500 hover:bg-white px-2 font-semibold"
         >
@@ -28,10 +39,50 @@
         >
           About
         </li>
-        <li  class="cursor-pointer hover:text-pink-500 hover:bg-white px-2 font-semibold outline-none focus:outline-none">CATEGORY</li>
+        <li class="relative" x-data="{dropdowndownOpen:false}">
+          <button
+            class="cursor-pointer hover:text-pink-500 hover:bg-white px-2 font-semibold outline-none focus:outline-none"
+            @click="dropdowndownOpen = !dropdowndownOpen"
+          >
+            Categories
+          </button>
+          <div
+            class="lg:absolute bg-white right-0 rounded-md p-2"
+            :class="{'hidden':!dropdowndownOpen,'flex flex-col':dropdowndownOpen}"
+          >
+            <ul class="space-y-2 lg:w-48">
+              <li>
+                <a
+                  href=""
+                  class="flex p-2 font-medium text-gray-600 rounded-md hover:bg-gray-100 hover:text-black"
+                  >Manga</a
+                >
+              </li>
 
-          
-            
+              <li>
+                <a
+                  href=""
+                  class="flex p-2 font-medium text-gray-600 rounded-md hover:bg-gray-100 hover:text-black"
+                  >Comics</a
+                >
+              </li>
+              <li>
+                <a
+                  href=""
+                  class="flex p-2 font-medium text-gray-600 rounded-md hover:bg-gray-100 hover:text-black"
+                  >Biography</a
+                >
+              </li>
+              <li>
+                <a
+                  href=""
+                  class="flex p-2 font-medium text-gray-600 rounded-md hover:bg-gray-100 hover:text-black"
+                  >Novel</a
+                >
+              </li>
+            </ul>
+          </div>
+        </li>
         <li
           class="cursor-pointer hover:text-pink-400 hover:bg-white px-2 font font-semibold"
         >
