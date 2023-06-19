@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Miet Bookstore</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="bg-pink-600 text-white flex justify-between py-2 sm:bg-slate-500">
+      <img src="images/logo/logo2.png" class="h-10 px-2 items-center mx-2" />
+      <ul class=" hidden lg:flex px-28 py-2  space-x-12 justify-end">
+        <li
+          class="cursor-pointer hover:text-pink-500 hover:bg-white px-2 font-semibold"
+        >
+          Home
+        </li>
+        <li
+          class="cursor-pointer hover:text-pink-500 hover:bg-white px-2 font-semibold"
+        >
+          EBooks
+        </li>
+        <li
+          class="cursor-pointer hover:text-pink-500 hover:bg-white px-2 font-semibold"
+        >
+          About
+        </li>
+        <li  class="cursor-pointer hover:text-pink-500 hover:bg-white px-2 font-semibold outline-none focus:outline-none">CATEGORY</li>
+
+          
+            
+        <li
+          class="cursor-pointer hover:text-pink-400 hover:bg-white px-2 font font-semibold"
+        >
+          Book Exchange
+        </li>
+      </ul>
+    </nav>
+    <main
+      class="bg-gradient-to-tr from-gray-300 to-stone-300 flex justify-around flex-wrap"
+    >
+      <!-- Rest of your content here -->
+
+      <div class="content flex-1 p-8 w-[600px] items-center">
+        <div
+          class="text-6xl px-8 text-clip font-extrabold flex justify-center my-4 animate-none"data-aos="fade-right" data-aos-duration="1500"
+        >
+          MI<span class="text-red-600">E</span>T
+          <span class="text-violet-700 ml-4"> Bookstore</span>
+        </div>
+        <br />
+        <p
+          class="px-7 py-3 w-2/3 text-centre flex justify-center mx-20 text-black "data-aos="fade-right" data-aos-duration="1500"
+        >
+          "Discover a world of endless possibilities at our online bookstore.
+          Explore, learn, and ignite your imagination with our curated
+          collection. Start your reading adventure today"
+        </p>
+        <div class="button my-9 px-5 mx-14 flex justify-items-center">
+          <button
+            class=" bg-green-600 rounded-2xl text-white hover:bg-blue-600 py-4 px-4 mx-6 transition-all active:bg-blue-700 focus:outline-blue-700"
+          >
+            Buy Now
+          </button>
+          <button
+            class="bg-red-600 rounded-2xl text-white py-4 px-4 mx-5 transition-all hover:shadow-red-500"
+          >
+            Sell Now
+          </button>
+        </div>
+      </div>
+      <div class="w-[500px] flex items-end">
+        <img
+          src="images/img/book1.png"
+          class="h-37 w-30"
+          alt=""
+          srcset=""
+        />
+      </div>
+    </main>
+    <hr />
+
+    <!-- creating another class so that we can give the 
+    background image for our bottom page -->
+    <div class="bg-gradient-to-tr from-rose-500 to-rose-400">
+      <h1
+        class="text-6xl px-8 justify-center flex justify-items-center font-extrabold py-12 text-white  transition-shadow text-center delay-100"data-aos="zoom-out-down "data-aos-duration="3000"
+      >
+        Our Products
+      </h1>
+
+      <!-- code for the box -->
+      <section class="text-gray-600 body-font">
+        <div class="container px-5 py-14 my-2 mx-auto">
+          <div class="flex flex-wrap -m-4">
+            <div
+              class="lg:w-1/4 md:w-1/2 p-6 m-2 w-full rounded-3xl border-spacing-6 shadow-black shadow-2xl"
+            >
+              <a class="block relative h-72 rounded overflow-hidden">
+                <img
+                  alt="ecommerce"
+                  class="object-cover object-center w-full h-full block"
+                  src="images/img/book1.jpeg"
+                />
+              </a>
+              <div class="mt-4">
+                <h3 class="text-white text-xs tracking-widest font-serif mb-1">
+                  Engineering Books
+                </h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">
+                  Engineering Physics
+                </h2>
+                <p class="mt-1">$16.00</p>
+              </div>
+            </div>
+            <div class="w-[300px] p-6 m-2">
+              <a class="block relative h-72 rounded overflow-hidden">
+                <img
+                  alt="ecommerce"
+                  class="w-full h-full"
+                  src="images/img/book3.jpeg"
+                />
+              </a>
+              <div class="mt-4">
+                <h3
+                  class="text-gray-500 text-xs tracking-widest title-font mb-1"
+                >
+                  CATEGORY
+                </h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">
+                  Shooting Stars
+                </h2>
+                <p class="mt-1">Rs21.15</p>
+              </div>
+            </div>
+            <!-- <div class="lg:w-1/3 md:w-1/2 p-6 m-2 w-full">
+              <a class="block relative h-72 rounded overflow-hidden">
+                <img
+                  alt="ecommerce"
+                  class="object-cover object-center w-full h-full block"
+                  src=""
+                />
+              </a>
+              <div class="mt-4">
+                <h3
+                  class="text-gray-500 text-xs tracking-widest title-font mb-1"
+                >
+                  CATEGORY
+                </h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">
+                  Neptune
+                </h2>
+                <p class="mt-1">$Rs12.00</p>
+              </div>
+            </div>
+            <div class="lg:w-1/3 md:w-1/2 p-6 m-2 w-full">
+              <a class="block relative h-72 rounded overflow-hidden">
+                <img
+                  alt="ecommerce"
+                  class="object-cover object-center w-full h-full block"
+                  src="https://dummyimage.com/423x263"
+                />
+              </a>
+              <div class="mt-4">
+                <h3
+                  class="text-gray-500 text-xs tracking-widest title-font mb-1"
+                >
+                  CATEGORY
+                </h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">
+                  The 400 Blows
+                </h2>
+                <p class="mt-1">$18.40</p>
+              </div>
+            </div>
+            <div class="lg:w-1/3 md:w-1/2 p-6 m-2 w-full">
+              <a class="block relative h-72 rounded overflow-hidden">
+                <img
+                  alt="ecommerce"
+                  class="object-cover object-center w-full h-full block"
+                  src="https://dummyimage.com/424x264"
+                />
+              </a>
+              <div class="mt-4">
+                <h3
+                  class="text-gray-500 text-xs tracking-widest title-font mb-1"
+                >
+                  CATEGORY
+                </h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">
+                  The Catalyzer
+                </h2>
+                <p class="mt-1">$Rs30.00</p>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-72 rounded overflow-hidden">
+                <img
+                  alt="ecommerce"
+                  class="object-cover object-center w-full h-full block"
+                  src="https://dummyimage.com/425x265"
+                />
+              </a>
+              <div class="mt-4">
+                <h3
+                  class="text-gray-500 text-xs tracking-widest title-font mb-1"
+                >
+                  CATEGORY
+                </h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">
+                  Shooting Stars
+                </h2>
+                <p class="mt-1">$Rs21.15</p>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-72 rounded overflow-hidden">
+                <img
+                  alt="ecommerce"
+                  class="object-cover object-center w-full h-full block"
+                  src="https://dummyimage.com/427x267"
+                />
+              </a>
+              <div class="mt-4">
+                <h3
+                  class="text-gray-500 text-xs tracking-widest title-font mb-1"
+                >
+                  CATEGORY
+                </h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">
+                  Neptune
+                </h2>
+                <p class="mt-1">$Rs12.00</p>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-72 rounded overflow-hidden">
+                <img
+                  alt="ecommerce"
+                  class="object-cover object-center w-full h-full block"
+                  src="https://dummyimage.com/428x268"
+                />
+              </a>
+              <div class="mt-4">
+                <h3
+                  class="text-gray-500 text-xs tracking-widest title-font mb-1"
+                >
+                  CATEGORY
+                </h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">
+                  The 400 Blows
+                </h2>
+                <p class="mt-1">$Rs18.40</p>
+              </div>
+              <!-- Code of the box ends -->
+            </div> -->
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- Our Aos data -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
