@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./bookcard.css">
+    <link rel="stylesheet" href="./bookscard.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+    <title>BlookCards</title>
+</head>
+
+<body>
+    <div id="bg">
+       
+        <nav class="nav h-16 ">
+            <input type="checkbox" id="nav-check">
+            <div class="nav-header">
+          
+              <!-- for logo -->
+              <div class="nav-title">
+                Miet BookStore
+              </div>
+          
+            </div>
+            <div class="nav-btn">
+                <button
+                class="bg-violet-600 rounded-2xl text-white hover:bg-blue-600 py-4 px-4 transition-all active:bg-blue-700 focus:outline-blue-700 justify-end"
+              >Add Books
+              </button>
+            </div>
+            </nav>
+            <hr>
+        <ul class="card-holder" id="card-holder">
+            <div class="flex justify-items-center justify-center flex-wrap" id="head">
+                <img src="./images/img/books.png" class="BookImage flex justify-items-center h-96"/>
+                </div>
+                    </ul>
+                    
+<div class="button my-9 flex justify-center items-center gap-[3rem]">
+
+    <button type=" h-full flex justify-between " class="addCardButtonMain h-full flex justify-between" id="add" onclick="newCard()">No Books Available.<br>Add Your First Book.</Button>
+    </div>
+                        
+                    <hr>
+    
+        <footer class="foot">
+            <p>
+                Made by <a href="https://github.com/yours7himanshu/Hackathon2023" class="foot-text">
+                    Team 16
+                </a>
+            </p>
+        </footer>
+    </div>
+    <dialog id="cardDialog" class="shadow">
+        <form method="dialog" class="cardForm">
+            <div class="section">
+                <input placeholder="Enter Book Name" type="text" name="title" id="title" class="customInput cardWidth">
+                <input placeholder="Enter Author Name" type="text" name="description" id="description"
+                    class="customInput cardWidth">
+                <input placeholder="Enter Category of Book" type="text" name="link" id="link" class="customInput cardWidth">
+                <div class="buttons">
+
+                    <label class="label customInput cardWidth">
+                        <input type="file" id="source" class="" />
+                        <span id="fileName">Select a Book</span>
+                    </label>
+                    <div class="command">
+                        <button class="customInput btn" id="add-card">Add Book</button>
+                        <button class="customInput btn" id="cancel-card"
+                            onclick="reset();bg.classList.remove('blur')">Cancel</button>
+                    </div>
+                </div>
+        </form>
+    </dialog>
+    <dialog id="favDialog" class="dialog-design">
+        <form method="dialog">
+          <section class="dialog_in" style="margin: 20px 0px;">
+            <p>Please fill all details</p>
+          </section>
+          <menu>
+            <button value="cancel" formmethod="dialog" class="customInput btn" onclick="close_error()">OK</button>
+          </menu>
+        </form>
+      </dialog>
+    <script src="./script.js"></script>
+</body>
+
+</html>
