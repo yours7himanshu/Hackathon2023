@@ -34,7 +34,7 @@ app.use(`${api}/orders`, ordersRoutes);
 //Database
 
 
-mongoose.connect('mongodb+srv://dinkarhimanshu78:02Ep9Ityq5DvEf1N@cluster0.myqclcl.mongodb.net/')
+mongoose.connect('mongodb+srv://dinkarhimanshu78:8o2uccEYTyMpLokv@cluster1.ynusufj.mongodb.net/miet?retryWrites=true&w=majority')
   .then(() => {
     console.log('Database Connection is ready...');
   })
@@ -44,7 +44,7 @@ mongoose.connect('mongodb+srv://dinkarhimanshu78:02Ep9Ityq5DvEf1N@cluster0.myqcl
 
 
 //Server
-app.listen(3000, ()=>{
+app.listen(1000, ()=>{
 
-    console.log('server is running http://localhost:3000');
+    console.log('server is running http://localhost:1000');
 })

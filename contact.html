@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="contact.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>SELL NOW</title>
+</head>
+<body>
+    <nav class="nav h-[70px] sticky top-0">
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
+      
+          <!-- for logo -->
+          <div class="nav-title">
+            Miet BookStore
+          </div>
+      
+        </div>
+        <div class="nav-btn">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+        
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="ebook.html">EBooks</a></li>
+          <li><a href="contact.html">SELL NOW</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Book Exhcange</a></li>
+      
+        </ul>
+      </nav>
+    
+<section class="contact">
+	<div class="layout">	 
+        <div class="text-center">
+          <h1 class="section-title">SELL NOW</h1>
+          <p>Sell your book in one single step</p>
+        <div class="grid-8 form">
+          <form action="php/email.php" method="post" id="contact_form" name="contactForm">
+            <div class="form-inline clearfix">
+              <div class="form-group grid-6 ">
+                <input type="text" placeholder="name" id="exampleInputName" name="name" class="form-control">
+              </div>
+              <div class="form-group grid-6">
+                <input type="email" placeholder="email address" id="exampleInputEmail" name="email" class="form-control">
+              </div>
+              <div class="form-group grid-6">
+                <input type="text" placeholder="Name of the book" id="exampleInputSubject" name="subject" class="form-control">
+              </div>
+              <div class="form-group grid-6">
+                <input type="text" placeholder="Publisher of the book" id="exampleInputCompany" name="company" class="form-control">
+              </div>
+              <div class="form-group grid-12">
+                <textarea placeholder="Details of the Book" id="exampleInputMessage" rows="3" name="message" class="form-control"></textarea>
+              </div>
+            </div>
+            <div class="form-group">
+              <div style="display:none;" class="success" id="mail_success">Your message has been sent successfully.
+              </div><!-- success message -->
+              <div style="display:none;" class="error" id="mail_fail"> Sorry, error occured this time sending your message.
+              </div><!-- error message -->
+            </div>
+            <div id="submit" class="form-group grid-12">
+              <input type="submit" value="send" class="btn  btn-lg costom-btn" id="send_message">
+            </div>
+          </form>
+        </div> <!-- /.col-xs-12 .col-sm-offset-2 .col-sm-8 -->
+        <div class="grid-12">       
+          <div class="icon-text">
+            </div><!-- /.icon-text -->
+          <!-- /.icon-holder -->
+        </div><!-- /.col-xs-12 -->     
+	</div>	
+</section>
+</body>
+</html>

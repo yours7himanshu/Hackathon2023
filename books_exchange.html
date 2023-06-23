@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Exchange Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.7/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav></nav>
+  <main class="container mx-auto my-8">
+    <h2 class="sm:text-6xl text-2xl font-bold mb-4 flex flex-wrap justify-center">Book Exchange Form</h2>
+
+    <div class="max-w-md mx-auto bg-white rounded-lg shadow-md p-6 border-4 flex  justify-between my-16">
+      <form>
+        <div class="mb-4 ">
+          <label for="bookGiven" class="block text-gray-700 font-bold mb-2">Book You Are Giving</label>
+          <input type="text" id="bookGiven" name="bookGiven" class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:border-blue-500">
+        </div>
+
+        <div class="mb-4">
+          <label for="bookWanted" class="block text-gray-700 font-bold mb-2">Book You Want</label>
+          <input type="text" id="bookWanted" name="bookWanted" class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:border-blue-500">
+        </div>
+
+        <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md">Submit</button>
+      </form>
+    </div>
+  </main>
+
+</body>
+
+</html>
