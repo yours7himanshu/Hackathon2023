@@ -32,8 +32,8 @@
           <li><a href="index.html">Home</a></li>
           <li><a href="ebook.html">EBooks</a></li>
           <li><a href="contact.html">SELL NOW</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Book Exhcange</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="books_exchange.html">Book Exhcange</a></li>
       
         </ul>
       </nav>
@@ -43,7 +43,8 @@
 
     <div class="bg-gradient-to-r from-violet-500 to-fuchsia-500">	 
       <div class="text-center">
-        <h1 class="section-title">Sell Now</h1>
+        <h1 class="section-title " data-aos="fade-right"
+        data-aos-duration="1500">Sell Now</h1>
         <p class="text-white">Sell your book in one single step</p>
         <div class="grid-8 form bg-slate-300">
           <form action="php/email.php" method="post" id="contact_form" name="contactForm">
@@ -83,5 +84,10 @@
       </div>	
     </section>
   </div>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
 </body>
 </html>

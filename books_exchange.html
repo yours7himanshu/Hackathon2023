@@ -5,6 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="styles.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+
 
   <title>Book Exchange Page</title>
 
@@ -13,7 +17,8 @@
 
 <body>
    <!-- for nav -->
-   <nav class="nav h-[70px] sticky top-0">
+   <nav class="nav h-16
+   ">
     <input type="checkbox" id="nav-check">
     <div class="nav-header">
   
@@ -34,7 +39,7 @@
     <ul class="nav-list">
       <li><a href="index.html">Home</a></li>
       <li><a href="ebook.html">EBooks</a></li>
-      <li><a href="contact.html">SELL NOW</a></li>
+      <li><a href="contact.html">Sell Now</a></li>
       <li><a href="about.html">About Us</a></li>
       <li><a href="books_exchange.html">Book Exhcange</a></li>
   
@@ -42,10 +47,11 @@
   </nav>
     <hr>
 
-  <main class="container mx-auto my-8">
-    <h2 class="sm:text-6xl text-2xl font-bold mb-4 flex flex-wrap justify-center">Book Exchange Form</h2>
+  <main class="container mx-auto my-8 ">
+    <h2 class="sm:text-6xl text-violet-600 text-2xl font-bold mb-4 flex flex-wrap justify-center" data-aos="fade-right"
+    data-aos-duration="1500">Book Exchange Form</h2>
 
-    <div class="max-w-md mx-auto bg-white rounded-lg shadow-md p-6 border-4 ">
+    <div class="max-w-md mx-auto bg-fuchsia-200 rounded-lg shadow-md p-6 border-4 ">
       <form>
         <div class="mb-4 ">
           <label for="bookGiven" class="block text-gray-700 font-bold mb-2">Book You Are Giving</label>
@@ -61,6 +67,10 @@
       </form>
     </div>
   </main>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 
