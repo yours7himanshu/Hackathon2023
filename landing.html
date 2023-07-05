@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Miet  Bookstore</title>
+
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    
+    
+  </head>
+  <body>
+    <!-- for nav -->
+    <nav class="nav h-[70px] sticky top-0">
+  <input type="checkbox" id="nav-check">
+  <div class="nav-header">
+
+    <!-- for logo -->
+    <div class="nav-title">
+      Miet BookStore
+    </div>
+
+  </div>
+  <div class="nav-btn">
+    <label for="nav-check">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+  </div>
+  
+  <ul class="nav-list">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="ebook.html">EBooks</a></li>
+    <li><a href="contact.html">Sell Now</a></li>
+    <li><a href="#">About Us</a></li>
+    <li><a href="books_exchange.html">Book Exchange</a></li>
+
+  </ul>
+</nav>
+    <main
+      class="bg-gradient-to-tr from-gray-300 to-stone-300 flex justify-around items-end flex-wrap min-h-[60vh]"
+    >
+      <!-- Rest of your content here -->
+
+      <div class="content sm:w-[500px]  flex-col p-8 items-center">
+        <div
+          class="sm:text-6xl text-4xl sm:text-left text-center  font-extrabold flex justify-items-center animate-none"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+        >
+          MI<span class="text-red-600">E</span>T
+          <span class="text-violet-700 ml-4"> Bookstore</span>
+        </div>
+        <br />
+        <p
+          class="w-fit text-centre flex justify-center text-black"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+        >
+          "Discover a world of endless possibilities at our online bookstore.
+          Explore, learn, and ignite your imagination with our curated
+          collection. Start your reading adventure today"
+        </p>
+        <div class="button my-9 flex justify-start items-center gap-[3rem]">
+          <button
+            class="bg-green-600 rounded-2xl text-white hover:bg-blue-600 py-4 px-4 transition-all active:bg-blue-700 focus:outline-blue-700"
+          >Ebooks
+          </button>
+          <button
+            class="bg-red-600 rounded-2xl text-white py-4 px-4  transition-all hover:shadow-red-500"
+          >
+            Sell Now
+          </button>
+        </div>
+      </div>
+      <div class="flex items-end w-[600px]">
+        <img
+          src="images/img/book1.png"
+          class="h-37 w-30"
+          alt=""
+          srcset=""
+        />
+      </div>
+    </main>
+    <hr />
+
+    <!-- creating another class so that we can give the 
+    background image for our bottom page -->
+    <div class="bg-gradient-to-tr from-rose-600 to-rose-400" id="books">
+      <h1
+        class="text-6xl px-8 justify-center flex justify-items-center font-extrabold py-12 text-white transition-shadow text-center delay-100"
+        data-aos="zoom-out-down "
+        data-aos-duration="3000"
+      >
+        Ncert Books
+      </h1>
+
+     
+              
+      <section class="min-h-[60vh] py-[50px] flex justify-evenly flex-wrap gap-[2rem]">
+        <div
+          class="w-[400px] h-[500px] p-10 rounded-3xl shadow-xl  border-spacing-6 hover:bg-pink-400 cursor-pointer"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+          data-aos-delay="500"
+        >
+          <a class="block relative h-[300px] rounded overflow-hidden">
+            <img
+              alt="ecommerce"
+              class="w-full h-full"
+              src="images/img/book8.jpeg"
+            />
+          </a>
+          <div class="mt-4">
+            <h3 class="text-gray-900 text-xs tracking-widest title-font mb-1">
+              NCERT BOOKS
+            </h3>
+            <h2 class="text-gray-900 title-font text-lg font-medium">
+              Chemistry
+            </h2>
+            <p class="mt-1">₹ 18.40</p>
+          </div>
+        </div>
+        <div
+          class="w-[400px] h-[500px] p-10 rounded-3xl shadow-xl  border-spacing-6 hover:bg-pink-400 cursor-pointer"
+          div data-aos="fade-right"
+          data-aos-duration="1500"
+        >
+          <a class="block relative h-[300px] rounded overflow-hidden">
+            <img
+              alt="ecommerce"
+              class="w-full h-full"
+              src="images/img/book9.jpeg"
+            />
+          </a>
+          <div class="mt-4">
+            <h3 class="text-gray-900 text-xs tracking-widest title-font mb-1">
+              NCERT BOOKS
+            </h3>
+            <h2 class="text-gray-900 title-font text-lg font-medium">
+              Physics
+            </h2>
+            <p class="mt-1">₹ 18.40</p>
+          </div>
+        </div>
+        <div
+          class="w-[400px] h-[500px] p-10 rounded-3xl shadow-xl border-spacing-6 hover:bg-pink-400 cursor-pointer"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+        >
+          <a class="block relative h-[300px] rounded overflow-hidden">
+            <img
+              alt="ecommerce"
+              class="w-full h-full"
+              src="images/img/book7.jpeg"
+              
+            />
+          </a>
+          <div class="mt-4">
+            <h3 class="text-black text-xs tracking-widest title-font mb-1">
+              NCERT BOOKS
+            </h3>
+            <h2 class="text-gray-900 title-font text-lg font-medium">
+              Biology
+            </h2>
+            <p class="mt-1">Rs18.40</p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <hr>
+    <div class="bg-slate-200" id="books">
+      <h1
+        class="text-6xl px-8 justify-center flex justify-items-center font-extrabold py-12 text-black transition-shadow text-center delay-100"
+        data-aos="zoom-out-down "
+        data-aos-duration="3000"
+      >
+        Engineering Books
+      </h1>
+
+     
+              
+      <section class="min-h-[60vh] py-[50px] flex justify-evenly flex-wrap gap-[2rem]">
+        <div
+          class="w-[400px] h-[500px] p-10 rounded-3xl shadow-xl  border-spacing-6 hover:bg-gray-400 cursor-pointer"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+          data-aos-delay="500"
+        >
+          <a class="block relative h-[300px] rounded overflow-hidden">
+            <img
+              alt="ecommerce"
+              class="w-full h-full"
+              src="images/img/book8.jpeg"
+            />
+          </a>
+          <div class="mt-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
+              Books
+            </h3>
+            <h2 class="text-gray-900 title-font text-lg font-medium">
+              Ncert
+            </h2>
+            <p class="mt-1">Rs18.40</p>
+          </div>
+        </div>
+        <div
+          class="w-[400px] h-[500px] p-10 rounded-3xl shadow-xl  border-spacing-6 hover:bg-gray-400 cursor-pointer"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+        >
+          <a class="block relative h-[300px] rounded overflow-hidden">
+            <img
+              alt="ecommerce"
+              class="w-full h-full"
+              src="images/img/book9.jpeg"
+            />
+          </a>
+          <div class="mt-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
+              Books
+            </h3>
+            <h2 class="text-gray-900 title-font text-lg font-medium">
+              Ncert
+            </h2>
+            <p class="mt-1">$Rs18.40</p>
+          </div>
+        </div>
+        <div
+          class="w-[400px] h-[500px] p-10 rounded-3xl shadow-xl border-spacing-6 hover:bg-gray-400"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+        >
+          <a class="block relative h-[300px] rounded overflow-hidden">
+            <img
+              alt="ecommerce"
+              class="w-full h-full"
+              src="images/img/book7.jpeg"
+              
+            />
+          </a>
+          <div class="mt-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
+              Books
+            </h3>
+            <h2 class="text-gray-900 title-font text-lg font-medium">
+              Ncert
+            </h2>
+            <p class="mt-1">$Rs18.40</p>
+          </div>
+        </div>
+        </section>
+      </div>
+<hr>
+      <div class="bg-gradient-to-tr from-rose-600 to-rose-400" id="books">
+        <h1
+          class="text-6xl px-8 justify-center flex justify-items-center font-extrabold py-12 text-white transition-shadow text-center delay-100"
+          data-aos="zoom-out-down "
+          data-aos-duration="3000"
+        >
+          ICSE Books
+        </h1>
+  
+       
+                
+        <section class="min-h-[60vh] py-[50px] flex justify-evenly flex-wrap gap-[2rem]">
+          <div
+            class="w-[400px] h-[500px] p-10 rounded-3xl shadow-xl  border-spacing-6 hover:bg-pink-400"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+            data-aos-delay="500"
+          >
+            <a class="block relative h-[300px] rounded overflow-hidden">
+              <img
+                alt="ecommerce"
+                class="w-full h-full"
+                src="images/img/book8.jpeg"
+              />
+            </a>
+            <div class="mt-4">
+              <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
+                Books
+              </h3>
+              <h2 class="text-gray-900 title-font text-lg font-medium">
+                Ncert
+              </h2>
+              <p class="mt-1">$Rs18.40</p>
+            </div>
+          </div>
+          <div
+            class="w-[400px] h-[500px] p-10 rounded-3xl shadow-xl  border-spacing-6 hover:bg-pink-400"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+          >
+            <a class="block relative h-[300px] rounded overflow-hidden">
+              <img
+                alt="ecommerce"
+                class="w-full h-full"
+                src="images/img/book9.jpeg"
+              />
+            </a>
+            <div class="mt-4">
+              <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
+                Books
+              </h3>
+              <h2 class="text-gray-900 title-font text-lg font-medium">
+                Ncert
+              </h2>
+              <p class="mt-1">$Rs18.40</p>
+            </div>
+          </div>
+          <div
+            class="w-[400px] h-[500px] p-10 rounded-3xl shadow-xl border-spacing-6 hover:bg-pink-400"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+          >
+            <a class="block relative h-[300px] rounded overflow-hidden">
+              <img
+                alt="ecommerce"
+                class="w-full h-full"
+                src="images/img/book7.jpeg"
+                
+              />
+            </a>
+            <div class="mt-4">
+              <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
+                Books
+              </h3>
+              <h2 class="text-gray-900 title-font text-lg font-medium">
+                Ncert
+              </h2>
+              <p class="mt-1">$Rs18.40</p>
+            </div>
+          </div>
+          </section></div>
+<hr>
+          <div class="bg-slate-200" id="books">
+            <h1
+              class="text-6xl px-8 justify-center flex justify-items-center font-extrabold py-12 text-black transition-shadow text-center delay-100"
+              data-aos="zoom-out-down "
+              data-aos-duration="3000"
+            >
+              Novels
+            </h1>
+      
+           
+                    
+            <section class="min-h-[60vh] py-[50px] flex justify-evenly flex-wrap gap-[2rem]">
+              <div
+                class="w-[400px] h-[500px] p-10 rounded-3xl shadow-xl  border-spacing-6 hover:bg-gray-400"
+                data-aos="fade-right"
+                data-aos-duration="1500"
+                data-aos-delay="500"
+              >
+                <a class="block relative h-[300px] rounded overflow-hidden">
+                  <img
+                    alt="ecommerce"
+                    class="w-full h-full"
+                    src="images/img/book8.jpeg"
+                  />
+                </a>
+                <div class="mt-4">
+                  <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
+                    Books
+                  </h3>
+                  <h2 class="text-gray-900 title-font text-lg font-medium">
+                    Ncert
+                  </h2>
+                  <p class="mt-1">$Rs18.40</p>
+                </div>
+              </div>
+              <div
+                class="w-[400px] h-[500px] p-10 rounded-3xl shadow-xl  border-spacing-6 hover:bg-gray-400"
+                data-aos="fade-right"
+                data-aos-duration="1500"
+              >
+                <a class="block relative h-[300px] rounded overflow-hidden">
+                  <img
+                    alt="ecommerce"
+                    class="w-full h-full"
+                    src="images/img/book9.jpeg"
+                  />
+                </a>
+                <div class="mt-4">
+                  <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
+                    Books
+                  </h3>
+                  <h2 class="text-gray-900 title-font text-lg font-medium">
+                    Ncert
+                  </h2>
+                  <p class="mt-1">$Rs18.40</p>
+                </div>
+              </div>
+              <div
+                class="w-[400px] h-[500px] p-10 rounded-3xl shadow-xl border-spacing-6 hover:bg-gray-400 cursor-pointer"
+                data-aos="fade-right"
+                data-aos-duration="1500"
+              >
+                <a class="block relative h-[300px] rounded overflow-hidden">
+                  <img
+                    alt="ecommerce"
+                    class="w-full h-full"
+                    src="images/img/book7.jpeg"
+                    
+                  />
+                </a>
+                <div class="mt-4">
+                  <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
+                    Books
+                  </h3>
+                  <h2 class="text-gray-900 title-font text-lg font-medium">
+                    The 400 Blows
+                  </h2>
+                  <p class="mt-1">$Rs18.40</p>
+                </div>
+              </div>
+              </section></div>
+
+              <hr>
+      <!-- <div class="bg-gradient-to-tr from-red-600 to-rose-400" id="books">
+        <h1
+          class="text-6xl px-8 justify-center flex justify-items-center font-extrabold py-12 text-white transition-shadow text-center delay-100"
+          data-aos="zoom-out-down "
+          data-aos-duration="3000"
+        >
+          Manga
+        </h1>
+  
+       
+                
+        <section class="min-h-[60vh] py-[50px] flex justify-evenly flex-wrap gap-[2rem]">
+          <div
+            class="w-[400px] h-[500px] p-10 rounded-3xl shadow-xl  border-spacing-6 hover:bg-red-700"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+            data-aos-delay="500"
+          >
+            <a class="block relative h-[300px] rounded overflow-hidden">
+              <img
+                alt="ecommerce"
+                class="w-full h-full"
+                src="images/img/book8.jpeg"
+              />
+            </a>
+            <div class="mt-4">
+              <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
+                CATEGORY
+              </h3>
+              <h2 class="text-gray-900 title-font text-lg font-medium">
+                The 400 Blows
+              </h2>
+              <p class="mt-1">$Rs18.40</p>
+            </div>
+          </div>
+          <div
+            class="w-[400px] h-[500px] p-10 rounded-3xl shadow-xl  border-spacing-6 hover:bg-red-700"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+          >
+            <a class="block relative h-[300px] rounded overflow-hidden">
+              <img
+                alt="ecommerce"
+                class="w-full h-full"
+                src="images/img/book9.jpeg"
+              />
+            </a>
+            <div class="mt-4">
+              <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
+                CATEGORY
+              </h3>
+              <h2 class="text-gray-900 title-font text-lg font-medium">
+                The 400 Blows
+              </h2>
+              <p class="mt-1">$Rs18.40</p>
+            </div>
+          </div>
+          <div
+            class="w-[400px] h-[500px] p-10 rounded-3xl shadow-xl border-spacing-6 hover:bg-red-700"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+          >
+            <a class="block relative h-[300px] rounded overflow-hidden">
+              <img
+                alt="ecommerce"
+                class="w-full h-full"
+                src="images/img/book7.jpeg"
+                
+              />
+            </a>
+            <div class="mt-4">
+              <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
+                CATEGORY
+              </h3>
+              <h2 class="text-gray-900 title-font text-lg font-medium">
+                The 400 Blows
+              </h2>
+              <p class="mt-1">$Rs18.40</p>
+            </div>
+          </div> -->
+          </section></div>
+
+
+     
+
+    <!-- footer code starts -->
+    <footer class="text-gray-600 body-font bg-gray-300">
+      <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-wrap md:text-left text-center -mb-10 -mx-4">
+          <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+            <h2
+              class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3"
+            >
+              Books
+            </h2>
+            <nav class="list-none mb-10">
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Ebooks</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Home</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">About</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Contact Us</a>
+              </li>
+            </nav>
+          </div>
+          <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+            <h2
+              class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3"
+            >
+              
+           
+          </div>
+        </div>
+      </div>
+      <div class="border-t border-gray-200">
+        <div class="container px-5 py-8 flex flex-wrap mx-auto items-center">
+          <div
+            class="flex md:flex-nowrap flex-wrap justify-center items-end md:justify-start"
+          >
+            <div class="relative sm:w-64 w-40 sm:mr-4 mr-2">
+              <label for="footer-field" class="leading-7 text-sm text-gray-600"
+                >Suscribe our newsletter</label
+              >
+              <input
+                type="text"
+                id="footer-field"
+                name="footer-field"
+                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:ring-2 focus:bg-transparent focus:ring-indigo-200 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              />
+            </div>
+            <button
+              class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded"
+            >
+              Subscribe
+            </button>
+            <p
+              class="text-gray-500 text-sm md:ml-6 md:mt-0 mt-2 sm:text-left text-center"
+            >
+Hackathon2023
+              <br class="lg:block hidden" />
+            </p>
+          </div>
+          <span
+            class="inline-flex lg:ml-auto lg:mt-0 mt-6 w-full justify-center md:justify-start md:w-auto"
+          >
+            <a class="text-gray-500">
+              <svg
+                fill="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="w-5 h-5"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
+                ></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-gray-500">
+              <svg
+                fill="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="w-5 h-5"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
+                ></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-gray-500">
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="w-5 h-5"
+                viewBox="0 0 24 24"
+              >
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                <path
+                  d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"
+                ></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-gray-500">
+              <svg
+                fill="currentColor"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="0"
+                class="w-5 h-5"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke="none"
+                  d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
+                ></path>
+                <circle cx="4" cy="4" r="2" stroke="none"></circle>
+              </svg>
+            </a>
+          </span>
+        </div>
+      </div>
+      <div class="bg-gray-100">
+        <div
+          class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row"
+        >
+          <p class="text-gray-500 text-sm text-center sm:text-left">
+            © 2023 Miet Team16
+            <a
+              href="https://twitter.com/_yours_himanshu"
+              class="text-gray-600 ml-1"
+              target="_blank"
+              rel="noopener noreferrer"
+              >@_yours_himanshu</a
+            >
+          </p>
+          <span
+            class="sm:ml-auto sm:mt-0 mt-2 sm:w-auto w-full sm:text-left text-center text-gray-500 text-sm"
+            >Team16</span
+          >
+        </div>
+      </div>
+    </footer>
+    <script src="landing.js"></script>
+    <!-- Our Aos data -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
